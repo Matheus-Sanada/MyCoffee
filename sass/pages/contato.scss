@@ -1,0 +1,210 @@
+form {
+    background-color: $colorOne;
+    padding: 50px;
+}
+
+.text_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 2em;
+    transition: 3s;
+    
+}
+
+.text_form h2 {
+    margin-top: 30px;
+    color: $colorThree;
+}
+
+.form_user_contact {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid $colorThree;
+    border-radius: 25px;
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    letter-spacing: 7px;
+    transition: 3s;
+}
+
+input {
+    width:  350px;
+    height: 35px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid $colorOne;
+    transition: 4s;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid $colorThree;
+  -webkit-text-fill-color: $colorThree !important;
+  -webkit-box-shadow: 0 0 0px 1000px $colorOne inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.name_user, .email_address, .message {
+    margin-top: 20px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    background-color: $colorOne;
+    color: $colorThree;
+    border: 1px solid $colorThree;
+    transition: 3s;
+}
+
+button:hover {
+    transition: 3s;
+    color: black;
+    background-color: $colorThree;
+    
+}
+
+
+
+
+
+// TABLET
+@media (max-width: 768px) {
+
+        
+    .form_user_contact {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 5px solid $colorThree;
+        border-radius: 25px;
+        padding: 30px;
+        text-align: center;
+        background-color: #fff;
+    }
+    
+
+
+    
+}
+
+// MOBILE L
+@media (max-width: 425px) {
+
+    
+.text_form h2 {
+    margin-top: 100px;
+    color: $colorThree;
+    font-size: 1.5em;
+}
+
+    
+label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    transition: 3s;
+    
+}
+
+input {
+    width:  200px;
+    height: 35px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid $colorOne;
+    transition: 4s;
+}
+
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+           
+
+    
+    
+}
+
+// MOBILE M
+
+@media (max-width: 375px) {
+
+       
+.text_form h2 {
+
+    margin-top: 100px;
+    color: $colorThree;
+    font-size: 1em;
+}
+
+   
+.form_user_contact {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid $colorThree;
+    border-radius: 25px;
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+}
+
+//MOBILE S
+
+@media (max-width: 320px) {
+
+    .container_list a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #fff;
+        
+    }
+}
+
